@@ -11,15 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Coins actors" Type="Folder">
-			<Item Name="MXN actor.lvlib" Type="Library" URL="../../../Labview/maquina/MXN actor/MXN actor.lvlib"/>
-			<Item Name="USD Actor.lvlib" Type="Library" URL="../../../Labview/maquina/USD Actor/USD Actor.lvlib"/>
+			<Item Name="MXN actor.lvlib" Type="Library" URL="../MXN actor/MXN actor.lvlib"/>
+			<Item Name="USD Actor.lvlib" Type="Library" URL="../USD Actor/USD Actor.lvlib"/>
 		</Item>
 		<Item Name="Product actors" Type="Folder">
-			<Item Name="coffe actor.lvlib" Type="Library" URL="../../../Labview/maquina/coffe actor/coffe actor.lvlib"/>
-			<Item Name="Soda Actor.lvlib" Type="Library" URL="../../../Labview/maquina/Soda Actor/Soda Actor.lvlib"/>
+			<Item Name="coffe actor.lvlib" Type="Library" URL="../coffe actor/coffe actor.lvlib"/>
+			<Item Name="Soda Actor.lvlib" Type="Library" URL="../Soda Actor/Soda Actor.lvlib"/>
 		</Item>
-		<Item Name="Launcher.vi" Type="VI" URL="../../../Labview/maquina/UI Actor/Launcher.vi"/>
-		<Item Name="UI Actor.lvlib" Type="Library" URL="../../../Labview/maquina/UI Actor/UI Actor.lvlib"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../UI Actor/Launcher.vi"/>
+		<Item Name="MENSAJE.lvlib" Type="Library" URL="../MENSAJE/MENSAJE.lvlib"/>
+		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
